@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "modelwatch"
+version = "0.1.0"
+description = "Inspect and normalize zero-priced entries from a public model catalog."
+requires-python = ">=3.11"
+license = { text = "MIT" }
+
+[project.scripts]
+modelwatch = "modelwatch.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
