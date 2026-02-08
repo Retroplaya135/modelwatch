@@ -1,0 +1,16 @@
+{
+  "data": [
+    {
+      "id": "example/alpha:free",
+      "name": "Alpha | Preview",
+      "context_length": 8192,
+      "pricing": {"prompt": "0", "completion": "0e-8"},
+      "architecture": {"modality": "text->text", "tokenizer": "Example"}
+    },
+    {
+      "id": "example/paid",
+      "name": "Paid",
+      "pricing": {"prompt": "0.1", "completion": "0.2"}
+    }
+  ]
+}
